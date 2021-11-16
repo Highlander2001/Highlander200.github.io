@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body{
+background-color:rgb(42, 42, 42);
+font-family: Arial;
+color: white;
+margin-top: 30px ;
+margin-bottom: 40px;
+}
+.one {
+  margin: 5px;
+  padding: 20px;
+  width: 170px;
+  height: 140px;
+  float: left;
+}
+#container {
+    max-width: 900px;
+    min-width: 500px;
+  margin: 0 auto;
+  
+}
+.uno {
+  background-color: teal;
+}
+.two {
+  background-color: pink;
+}
+.three {
+  background-color: rgb(170, 170, 69);
+}
+.four {
+  background-color:seashell;
+}
+.five {
+  background-color: orange;
+  width: 390px;
+}
+.six {
+  background-color: mediumspringgreen;
+}
+.seven {
+  background-color: dodgerblue;
+  background-image:url("ciudad.jpg");
+  font-size: 30px;
+}
+.listas li{
+margin-left: 20px;
+margin-bottom: 5px;
+margin-top: 4px;
+}
+ul.listas li{
+list-style-type: disc;
+
+}
+ol.listas li {
+    list-style-type: decimal;
+}
+.listas a{
+    color: white;
+    text-decoration: none;
+}
+.number{
+    font-size: 25px;
+    color:black;
+    text-align:right;
+}
+#tabla{
+    border:2px solid;
+    border-color: black;
+    padding: 10px;
+    margin: 10px auto;
+    font-weight: normal;
+    width: 100%;   
+}
+ #tabla th{
+    border-bottom: 1px solid black;
+    padding: 2px;
+    text-align: center;
+}
+.time{
+    margin-top:3px;
+    text-align: right;
+}
+.day{
+    font-size: 70px;
+}
+.fecha{
+    margin-top: 20px;
+}
